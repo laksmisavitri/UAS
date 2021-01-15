@@ -1,0 +1,207 @@
+*{
+    padding :0 ;
+    margin  :0 ;
+}
+
+.login{
+	margin-top:5px;
+	margin-right:5px;
+	font-weight:200;
+	font-size:14px;
+	color:#000000;
+	text-align:center;
+	float:right;
+}
+
+body{
+    width: 100%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #dedede;
+}
+
+.marquee{
+    background-color: #ffffffd7;
+    color: #0006ff
+}
+
+p{
+    margin-bottom: 20px;
+    line-height: 1.5em;
+}
+
+h2{
+    font-size: 17px;
+    font-weight: 600;
+}
+
+h3{
+    font : #fff;
+    font-size: 17px;
+    padding-bottom: 10px;
+    border-bottom: 4px solid #fff;
+}
+
+h4{
+    font : white;
+    padding-top: 10px;
+    text-align: left;
+    font-size: 15px;
+}
+
+/*Halaman Buku*/
+
+.buku {
+    margin-right: 5px;
+    float:left;
+    border:1px solid #dedede;
+    width: 240px;
+	margin-bottom:20px
+}
+
+.gallery:hover {
+}
+
+.foto img {
+    padding:5px 0 5px 0;
+    width: 200px;
+    height: 250px;
+}
+
+.judul {
+    font-size: 13px;
+    font-weight: 600;
+    padding:0 0 3px 0;
+    text-align: center;
+} 
+
+.penulis{
+    font-size:10px;
+    padding-bottom: 5px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: inherit;
+    font-size: 20px;
+    color: #000000;
+}
+
+a:hover{
+    color: #d4d2db;
+}
+
+#container{
+    max-width: 1140px;
+    text-align: : center;
+    background: #fff;
+    overflow: hidden;
+    border:0px solid #d9d9d9;
+    margin : 0px 90px;
+    padding:0 0 0 0;
+}
+
+.header{
+    border-radius: 0 0 10px 10px ;
+    padding: 10px 0 0 10px;
+    text-align : center;
+    background-image: url(image/header_bg.jpg);
+}
+
+.header h1{
+    font-size: 40px;
+    color:#fff;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align:center;
+}
+
+/* main */
+
+.left{
+    width: 280px;
+    color:#000000;
+    border: 1px solid #dedede;
+    padding: 20px;
+    margin: 10px 10px 10px 5px;
+    float: left;
+    background-color:#FFFF00;
+	border-radius:10px;
+}
+
+.left ul{
+    list-style-type: none;
+}
+
+.left ul li{
+    display: block;
+}
+
+.left ul li a{
+    display: block;
+    font-size: 17px;
+    border-bottom: 1px dotted #000000;
+    margin-bottom: 10px;
+    padding: 10px 5px;
+    font:  #000000;
+}
+
+.left ul li a:hover{
+    color: #ca1414 ;
+}
+
+.middle{
+    width: 757px;
+    border: 1px solid #dedede;
+    padding: 10px;
+    float: left;
+	margin-top:20px;
+	margin-bottom:10px;
+}
+
+.middle a{
+    font-weight: bold;
+}
+
+#footer{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 10px;
+    color: #6813c9;
+    clear: both;
+    border: 1px solid #dedede;
+    padding: 15px;
+	background:#FFFF00;
+}
+
+.kontak {
+    border:1px solid #dedede;
+    width:650px;
+}
+
+.gambar img {
+    padding:5px 0 5px 0;
+    width: 635px;
+    height: 400px;
+}
+@media screen and (max-width:1140px){
+    .container{
+        width: 100%;
+    }
+    .left{
+        width: 10%;
+        background:#FFFF00;
+    }
+    .middle{
+        width: 68%;
+        float: right;
+    }
+     .middle2{
+        width: 90%;
+        float: right;
+    }
+}

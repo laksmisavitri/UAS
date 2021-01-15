@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+body{
+	background-image: url(image/header_bg.jpg);
+    font-family: verdana;
+}
+
+.tampilan{
+ 	background: #fff;
+    width: 350px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    min-height: 100px;
+    overflow: hidden;
+}
+.tam{
+ 	background: #fff;
+    width: 400px;
+    margin: 100px auto 0;
+    border-radius: 10px;
+    min-height: 100px;
+    overflow: hidden;
+}
+.kepala{
+    background: #FFFF00;
+    padding: 10px 22px;
+    height: 50px;
+}
+
+.logo{
+	background-image: url(image/login.png);
+    background-position: center;
+    background-size: 50px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 50px;
+}
+
+.kepala h2.judul{
+    color: #000000;
+    font-size: 25px;
+    font-weight: normal;
+    text-align: left;
+    line-height: 50px;
+}
+
+.kesalahan{
+ font-size:20px;
+ color: #000000;
+ padding: 10px 0 0 0;
+ text-align: center;
+}
+
+.artikel{
+    padding:10px 22px 0;
+    color: #808080;
+}
+
+.artikel div.kotak{
+    margin: 16px 0;
+}
+
+.kotak input[type="text"]{
+  	font-size: 15px;
+    width: 65%;
+    height: 30px;
+    padding: 0 15px;
+	background:#eeeeee;
+	border:none
+    color: #000000;
+	margin-bottom:10px;
+	margin-left:20px;
+}
+
+.kotak input[type="password"]{
+    font-size: 15px;
+    width: 65%;
+    height: 30px;
+    padding: 10px 15px;
+    background: #eeeeee;
+    border:none
+	color:#000000;
+	margin-left:20px;
+}
+
+.kotak input[type="submit"]{
+	background:#FFFFFF;
+    font-size:14px;
+    margin: 10px 150px 15px 150px;
+    border-radius: 2px;
+    color: #000000;
+    cursor: pointer;
+    padding: 0 5px 0 5px;
+}
+.login{
+font-size:10px;
+margin-top:10px;
+text-align:center;
+color:#000000;
+padding-bottom:5px;
+}
+
+.ubah{
+font-size:12px;
+}
